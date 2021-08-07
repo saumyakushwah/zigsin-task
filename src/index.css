@@ -1,13 +1,103 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.ant-layout-header {
+  background: white !important;
+  height: 100px !important;
+  line-height: 100px !important;
+}
+
+.ant-menu-horizontal {
+  border: none !important;
+}
+
+.main-section {
+  height: 420px;
+  background-image: url("./main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section-content {
+  background: rgba(0, 35, 102, 0.35);
+  width: 620px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 48px;
+}
+
+.ant-dropdown-link {
+  /* padding: 0 16px; */
+  margin-right: 40px;
+  font-family: Mulish, sans-serif;
+  font-weight: 600;
+  color: #495057;
+  cursor: pointer;
+}
+
+.right-buttons {
+  margin: 40px;
+  cursor: pointer;
+}
+
+.tile-section {
+  background: #e9ecef;
+  /* width: 100%; */
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.round-button {
+  transition: all 0.2s ease-in-out !important;
+  font-family: Mulish, sans-serif !important;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 116, 140),
+    rgb(255, 141, 80)
+  ) !important;
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  letter-spacing: 0.5px !important;
+  padding: 8px 28px !important;
+  border: none !important;
+}
+
+.round-button.outlined {
+  background: none !important;
+  color: #444 !important;
+  border: 2px solid #444 !important;
+}
+
+.round-button:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 116, 140),
+    rgb(255, 141, 80)
+  ) !important;
+}
+
+.round-button.outlined:hover {
+  background: #444 !important;
+  color: white !important;
 }
