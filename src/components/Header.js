@@ -23,8 +23,16 @@ export default function Header() {
             <span className="ant-dropdown-link">Our magazine</span>
           </div>
           <div>
-            <SearchOutlined size="large" style={{fontSize: '20px', cursor: 'pointer', color: '#495057'}} />
-            <span className="right-buttons" style={{fontWeight: '600', color: '#495057'}}>Log In</span>
+            <SearchOutlined
+              size="large"
+              style={{ fontSize: "20px", cursor: "pointer", color: "#495057" }}
+            />
+            <span
+              className="right-buttons"
+              style={{ fontWeight: "600", color: "#495057" }}
+            >
+              Log In
+            </span>
             <RoundButton className="right-buttons">SIGN UP</RoundButton>
           </div>
         </div>

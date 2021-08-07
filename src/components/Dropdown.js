@@ -36,7 +36,7 @@ const menu = (
 export default function Dropdown() {
   return (
     <AntDropdown overlay={menu}>
-      <span className="ant-dropdown-link" style={{color: 'black'}}>
+      <span className="ant-dropdown-link" style={{ color: "black" }}>
         Products <DownOutlined />
       </span>
     </AntDropdown>
